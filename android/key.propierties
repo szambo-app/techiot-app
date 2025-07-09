@@ -1,0 +1,4 @@
+storePassword=Zepetlens1!@
+keyPassword=Zepetlens1!@
+keyAlias=upload
+storeFile=upload-keystore.jks
