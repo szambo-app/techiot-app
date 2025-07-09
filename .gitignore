@@ -5,6 +5,8 @@
 *.swp
 .DS_Store
 .atom/
+# pozwól na śledzenie PWA build
+!/build/web
 .build/
 .buildlog/
 .history
