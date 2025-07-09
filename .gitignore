@@ -5,8 +5,6 @@
 *.swp
 .DS_Store
 .atom/
-# pozwól na śledzenie PWA build
-!/build/web
 .build/
 .buildlog/
 .history
@@ -33,7 +31,11 @@ migrate_working_dir/
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
+
+# najpierw ignoruj cały build
 /build/
+# ale potem zezwól na jego podkatalog web
+!/build/web
 
 # Symbolication related
 app.*.symbols
